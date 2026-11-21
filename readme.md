@@ -4,16 +4,11 @@
 
 ## Live Demo
 
-(Link)
+https://aritatgml.github.io/empeo-performance-prototype/
 
 ## Overview
 
 A clickable prototype of a Performance Management feature for empeo.
-
-The prototype supports three roles:
-- **HR Admin:** Manage review cycles, oversee performance data, and review AI-assisted calibration recommendations.
-- **Manager:** Complete employee assessments, track deadlines, and participate in performance reviews.
-- **Employee:** View performance goals, feedback, and finalized assessment results.
 
 ## Key Features
 
@@ -96,4 +91,4 @@ Initially, I thought performance calibration meetings could be very time-consumi
 
 I thought that if we had clear and measurable KPIs, AI could potentially handle rating adjustments automatically. However, the AI suggested a more cautious approach: using AI to assist with calibration rather than allowing it to make all the decisions.
 
-Then I realized that if employees found out that their ratings had been lowered because of AI, they wouldn't be pleased. Ultimately, employees want to be evaluated with human empathy and understanding.
+Then I realized that if employees found out that their ratings had been lowered because of AI, they wouldn't be pleased. Ultimately, employees want to be evaluated with human empathy and understanding.# empeo-performance-prototype
