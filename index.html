@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>empeo</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <aside class="sidebar">
+        <div class="logo">empeo</div>
+        <div class="workspace">WORKSPACE</div>
+        <nav class="nav" id="nav">
+          <button class="active" data-page="dashboard">
+            <span class="ico">▦</span><span class="label">Overview</span>
+          </button>
+          <button data-page="cycles">
+            <span class="ico">◷</span><span class="label">Review cycles</span>
+          </button>
+          <button data-page="assessmentDash">
+            <span class="ico">◧</span
+            ><span class="label">Assessment dashboard</span>
+          </button>
+          <button data-page="calibration">
+            <span class="ico">✳</span><span class="label">AI Calibration</span>
+          </button>
+          <button data-page="assessments">
+            <span class="ico">☷</span><span class="label">My assessments</span>
+          </button>
+          <button data-page="people">
+            <span class="ico">♙</span
+            ><span class="label">People & results</span>
+          </button>
+        </nav>
+        <div class="side-bottom">
+          PEOPLE MANAGEMENT
+          <div class="profile">
+            <div class="avatar" id="profileAvatar">HR</div>
+            <div>
+              <b id="profileName">Alex Morgan</b><br /><span id="profileTitle"
+                >HR Administrator</span
+              >
+            </div>
+          </div>
+        </div>
+      </aside>
+      <main class="main">
+        <header class="topbar">
+          <div class="crumb">
+            Workspace&nbsp; / &nbsp;<b id="crumb">Overview</b>
+          </div>
+          <div style="display: flex; align-items: center; gap: 12px">
+            <span class="muted" style="font-size: 12px" id="demoNote"
+              >Demo workspace</span
+            ><select class="role-select" id="role">
+              <option value="HR">View as: HR Admin</option>
+              <option value="Manager">View as: Manager</option>
+              <option value="Employee">View as: Employee</option>
+            </select>
+          </div>
+        </header>
+        <div class="content" id="view"></div>
+      </main>
+    </div>
+    <div class="modal-back" id="modalBack">
+      <div class="modal" id="modal"></div>
+    </div>
+    <script src="js/data.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/tasks.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/pages/dashboard.js"></script>
+    <script src="js/pages/cycles.js"></script>
+    <script src="js/pages/calibration.js"></script>
+    <script src="js/pages/assessments.js"></script>
+    <script src="js/pages/people.js"></script>
+    <script src="js/assessment-data.js"></script>
+    <script src="js/pages/assessment-dashboard.js"></script>
+    <script src="js/pages/manager-dashboard.js"></script>
+    <script src="js/pages/manager-assessments.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
